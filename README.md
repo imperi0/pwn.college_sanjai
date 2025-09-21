@@ -1,2 +1,3 @@
 # pwn.college_sanjai
-Documentation on challenges solved in pwn.college
+This repository contains writeups for challenges I solved/about to solve on pwn.college
+Work in process...
