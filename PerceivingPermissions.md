@@ -8,3 +8,15 @@ In this level, we will practice changing the owner of the /flag file to the hack
 
 ### Groups and files
 
+In this level i used chgrp to change group of the /flag 
+
+<img width="451" height="66" alt="image" src="https://github.com/user-attachments/assets/95a7e4a1-e410-4314-b96c-02cdf9778253" />
+
+### FUn with group names
+
+In this level i used group id to change the group 
+
+<img width="490" height="131" alt="image" src="https://github.com/user-attachments/assets/2f58f19b-5ae8-4eea-9cb3-36a8bf7f009e" />
+
+### Changing permissions
+
