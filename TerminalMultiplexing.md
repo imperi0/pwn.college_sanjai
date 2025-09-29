@@ -11,6 +11,7 @@ I used screen commmand to launch a new terminal session
 ### Detaching and attaching 
 
 I used screen, then did ctrl-A which is its activation key to use shortcuts then pressed d to detach
+
 Then screen -r to reattach the session 
 
 <img width="707" height="242" alt="image" src="https://github.com/user-attachments/assets/e4b279e4-e57e-4917-a94a-4e0566903567" />
@@ -25,3 +26,38 @@ I tried all reattaching to each session using their PID and found the flag in se
 
 ### Switching windows
 
+Ctrl-A c - Create a new window
+
+Ctrl-A n - Next window
+
+Ctrl-A p - Previous window
+
+Ctrl-A 0 through Ctrl-A 9 - Jump directly to window 0-9
+
+Ctrl-A " - bring up a selection menu of all of the windoww
+
+<img width="556" height="139" alt="image" src="https://github.com/user-attachments/assets/5cab9c52-2dc6-4a9f-a971-dc2774bd147a" />
+
+<img width="437" height="277" alt="image" src="https://github.com/user-attachments/assets/f6042012-8ace-42a4-bc62-ab991e8366c7" />
+From this window i used ctr-A 0 to switch to the other window
+<img width="573" height="121" alt="image" src="https://github.com/user-attachments/assets/0520145a-c5d9-47cb-b64e-05e153276002" />
+
+### Detaching and Attaching
+
+For this challenge i used TMUX which is almost similar to screen
+
+<img width="583" height="156" alt="image" src="https://github.com/user-attachments/assets/ee1ff739-7ba9-453e-8540-5bee56cb8aa6" />
+
+<img width="605" height="130" alt="image" src="https://github.com/user-attachments/assets/3d6f670a-149e-4f50-abb4-2bbb38a5f3f9" />
+
+### Switching Windows
+
+Ctrl-B c - Create a new window
+Ctrl-B n - Next window
+Ctrl-B p - Previous window
+Ctrl-B 0 through Ctrl-B 9 - Jump to window 0-9
+Ctrl-B w - See a nice window picker
+
+<img width="487" height="262" alt="image" src="https://github.com/user-attachments/assets/280ad38c-36a7-4789-9865-a9b900e8f0d0" />
+From here i switeched to other window to et the flag
+<img width="596" height="108" alt="image" src="https://github.com/user-attachments/assets/b7ff8b31-aa8f-4c04-abd5-d082dc9a57f6" />
