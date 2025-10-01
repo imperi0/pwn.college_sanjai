@@ -2,4 +2,6 @@
 This repository contains writeups for challenges I solved on pwn.college
 
 
-### Work in process...
+~~### Work in process...~~ 
+
+COMPLETED!!!
