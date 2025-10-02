@@ -33,15 +33,7 @@ You know that rm is searched for in the directories listed in the PATH variable.
 Solve
 
 ### Solve
+I added a rm file with the text /usr/bin/cat /flag. Next, I added it to the path using PATH="$PWD:$PATH" and got the flag
 
-**Flag: pwn.college{wZ02JdzGk9BI0v2IOcqNjnZF_SG.QX3cjM1wiNzAzNzEzW}**
+<img width="686" height="258" alt="image" src="https://github.com/user-attachments/assets/9a44365d-e859-4114-a368-1b004e8bb034" />
 
-In this challenge, I typed echo $PATH and saw a list of directories and one by one checked if it had cat inside using ls and found it in /usr/bin. I added a rm file with the text /usr/bin/cat /flag. Next, I added it to the path using PATH="$PWD:$PATH" and got the flag
-
-```bash
-echo $PATH
-nano rm
-/usr/bin/cat /flag
-PATH=$"PWD:$PATH"
-/challenge/run
-```
