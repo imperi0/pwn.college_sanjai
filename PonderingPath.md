@@ -22,15 +22,11 @@ In this challenge, we added a win command somewhere in your $PATH, but it won't 
 Previously, the win command that /challenge/run executed was stored in /challenge/more_commands. This time, win does not exist! Recall the final level of Chaining Commands, and make a shell script called win, add its location to the PATH, and enable /challenge/run to find it!
 
 ### Solve
-In this challenge, I typed echo $PATH and saw a list of directories and one by one checked if it had cat inside using ls and found it in /usr/bin. I added a win file with the text /usr/bin/cat /flag. Next, I added it to the path using PATH="$PWD:$PATH" and got the flag.
+In this challenge, I typed which cat. I added a win file with the text path and /flag. Next, I added it to the path using PATH and got the flag.
 
-```bash
-echo $PATH
-nano win
-/usr/bin/cat /flag
-PATH=$"PWD:$PATH"
-/challenge/run
-```
+<img width="199" height="71" alt="image" src="https://github.com/user-attachments/assets/36bc79cb-ddba-434a-bc58-2540e0068ac2" />
+
+<img width="431" height="147" alt="image" src="https://github.com/user-attachments/assets/e1eedf6f-e878-4291-9f6a-91c18c4c8862" />
 
 ## Hijacking Commands
 You know that rm is searched for in the directories listed in the PATH variable. You have experience creating the win command when the previous challenge needed it. What else can you create?
